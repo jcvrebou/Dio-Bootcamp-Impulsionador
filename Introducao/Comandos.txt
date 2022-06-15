@@ -1,0 +1,45 @@
+GIT
+
+#Comandos básicos:
+
+- git --version: verificar versão do git
+
+- Windows: shell
+	- cd: navegar entre diretórios
+	- cd..: retroceder diretórios
+	- dir: listar pastas
+	- mkdir: criar pastas
+	- del: deleta arquivos / rmdir: deletar a pasta e seus arquivos
+	- cls: limpar o terminal
+
+- Unix: bash
+	- cd: navegar entre diretórios
+	- cd ..: retroceder diretórios
+	- ls: listas pastas
+	- mkdir: criar pastas
+	- rm -rf: deletar arquivos e pastas
+	- clear: limpar o terminal
+	- ls -a: mostrar arquivos ocultos
+
+#Tipos de objetos do GIT:
+
+- Blobs;
+- Trees;
+- Commits;
+
+# Principais comandos GIT:
+
+- git init: iniciar o git na pasta do projeto, criando um repositorio
+- git add "nome arquivo"(git add * ou git add ., para add todos os arquivos alterados): adicionar todas as alterações do repositório
+- git commit -m "texto": envelopar tudo mas ainda está no repositório local e a partir daqui pode ser enviado para o repositório remoto
+- git status: verificar o status do arquivo
+
+# Interação entre GIT(repositório local) e GITHUB(repositório na nuvem)
+
+- Cria o repositório no git hut.
+- Pega o endereço desse repositório e leva para o terminal (git bash, por exemplo): git remote add origin git@github.com:jcvrebou/DIO.git.
+- git remote -v: lista a lista de repositórios local.
+- git push origin master: envia o repositório local para o github.
+- git pull origin master: quando ocorre divergência entre o q v
+
+
